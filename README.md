@@ -50,7 +50,7 @@ PROJECT 1/
 ## 🤖 Model
 - **Logistic Regression**  
 - Train-test split: 80% training / 20% testing  
-- Achieved **accuracy: XX%** on the test set  
+- Achieved **accuracy: 82%** on the test set  
 
 ---
 
