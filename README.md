@@ -16,18 +16,12 @@ It demonstrates the **full ML pipeline**: data cleaning → feature engineering 
 
 ## 📂 Project Structure
 
-PROJECT 1/
-│
-├── data/
-│ └── titanic.csv # Raw dataset
-├── notebooks/
-│ └── eda.ipynb # EDA & preprocessing
-├── src/
-│ ├── init.py
-│ └── model.py # Save/load ML model
-├── models/
-│ └── titanic_model.pkl # Saved Logistic Regression model
-└── requirements.txt # Python dependencies
+PROJECT 1/ → data/titanic.csv  
+            → notebooks/eda.ipynb  
+            → src/__init__.py, src/model.py  
+            → models/titanic_model.pkl  
+            → requirements.txt
+
 
 ---
 
@@ -63,48 +57,52 @@ save_model(model)
 
 # Load model later
 loaded_model = load_model()
+```
 🚀 Future Use Cases
 
-Beginner ML portfolio project
+* Beginner ML portfolio project
 
-Can extend to real-world binary classification problems:
+* Can extend to real-world binary classification problems:
 
-Customer churn prediction
+* Customer churn prediction
 
-Loan default prediction
+* Loan default prediction
 
-Disease survival prediction
+* Disease survival prediction
 
-Deployable as a web app or API for interactive predictions
+* Deployable as a web app or API for interactive predictions
+
 🛠 How to Run
 
 Clone the repo:
-
+```
 git clone https://github.com/ASVATH2029/T-PROJ.git
-
+```
 
 Install dependencies:
-
+```python
 pip install -r requirements.txt
+```
 
+* Open notebooks/eda.ipynb for EDA and model training
 
-Open notebooks/eda.ipynb for EDA and model training
+* Use src/model.py to save/load the trained model
 
-Use src/model.py to save/load the trained model
 📋 Dependencies
 
-Python 3.10+
+** Python 3.10+
 
-pandas, numpy, scikit-learn, joblib
+** pandas, numpy, scikit-learn, joblib
 
-matplotlib / seaborn (for visualization)
+** matplotlib / seaborn (for visualization)
+
 
 ✨ Author
 
-Asvath (ajju)
+* Asvath (ajju)
 
-3rd Year CSE Undergraduate
+* 3rd Year CSE Undergraduate
 
-Passionate about Machine Learning and Python
+* Passionate about Machine Learning and Python
 
-GitHub Profile:https://github.com/ASVATH2029
+* GitHub Profile:https://github.com/ASVATH2029
